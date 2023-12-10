@@ -315,7 +315,6 @@ img {
 }
 .portfolio-item {
   width: 360px;
-  row-gap: 48px;
 }
 .portfolio-item:last-child {
   margin-bottom: 0;
