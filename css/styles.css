@@ -70,7 +70,6 @@ img {
   display: flex;
   align-items: center;
   padding: 0 15px;
-
 }
 
 .header-nav {
@@ -310,7 +309,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  gap: 24px;
+  column-gap: 24px;
   padding-bottom: 120px;
 }
 .portfolio-item {
