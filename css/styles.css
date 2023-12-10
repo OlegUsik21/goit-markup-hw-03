@@ -63,21 +63,23 @@ img {
 /* Header section */
 
 .header {
-  padding: 0 15px;
   background-color: inherit;
   border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
   display: flex;
   align-items: center;
+  padding: 0 15px;
   padding-bottom: 24px;
   padding-top: 24px;
 }
 
 .header-nav {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
   align-items: center;
   margin-right: auto;
-  display: flex;
 }
 .header-link-logo {
   margin-right: 76px;
@@ -205,6 +207,7 @@ img {
 
 .cualities {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 .cualities-list {
   display: flex;
@@ -215,6 +218,7 @@ img {
 }
 .cualities-item {
   width: 260px;
+  width: calc((100% - 72px) / 4);
 }
 .cualities-title {
   margin-bottom: 8px;
@@ -257,12 +261,12 @@ img {
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
-.team-wrapper{
- padding: 32px 0;
- 
+.team-wrapper {
+  padding: 32px 0;
 }
 
 .team-title {
+  margin-bottom: 8px;
   padding-top: 32px;
   padding-bottom: 8px;
   color: #2e2f42;
@@ -307,9 +311,11 @@ img {
 }
 .portfolio-item {
   width: 360px;
-  margin-bottom: 48px;
+  row-gap: 48px;
 }
-
+.portfolio-item:last-child {
+  margin-bottom: 0;
+}
 .portfolio-name {
   margin-bottom: 8px;
   color: #2e2f42;
@@ -338,8 +344,6 @@ img {
   padding: 100px 0;
 }
 .footer-link {
-  display: inline-block;
-  padding-bottom: 17.5px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -365,6 +369,8 @@ img {
 }
 .footer-link,
 .footer-botton {
+  display: inline-block;
+  margin-bottom: 16px;
   text-decoration: none;
   width: 115px;
   margin-bottom: 16px;
