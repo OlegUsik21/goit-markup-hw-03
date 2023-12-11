@@ -52,14 +52,6 @@ img {
   margin: 0 auto;
 }
 
-.team-members,
-.portfolio-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 /* Header section */
 
 .header {
@@ -74,15 +66,12 @@ img {
 
 .header-nav {
   display: flex;
-  gap: 40px;
   padding: 24px 0;
   align-items: center;
   margin-right: auto;
 }
 .header-link-logo {
   margin-right: 76px;
-  margin-left: 0;
-
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -124,8 +113,6 @@ img {
   text-decoration: none;
 }
 .header-item {
-  margin-right: 40px;
-  padding: 0 15px;
 }
 .header-item :last-child {
   margin-right: 0;
@@ -223,7 +210,7 @@ img {
   width: calc((100% - 72px) / 4);
 }
 .cualities-title {
-  margin-bottom: 8px;
+  padding-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -231,6 +218,7 @@ img {
   letter-spacing: 0.02em;
 }
 .cualities-text {
+  margin: 0;
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -243,7 +231,7 @@ img {
   padding: 120px 0;
 }
 .team-members {
-  margin-bottom: 72px;
+  padding-bottom: 72px;
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -256,7 +244,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 .team-item {
@@ -268,8 +255,8 @@ img {
 }
 
 .team-title {
-  margin-bottom: 8px;
-  padding-top: 32px;
+  display: flex;
+  justify-content: center;
   padding-bottom: 8px;
   color: #2e2f42;
   text-align: center;
@@ -279,7 +266,7 @@ img {
   letter-spacing: 0.02em;
 }
 .team-text {
-  padding-bottom: 32px;
+  margin: 0;
   color: #434455;
   text-align: center;
   font-weight: 400;
@@ -296,7 +283,7 @@ img {
 .portfolio .conainer {
 }
 .portfolio-title {
-  margin-bottom: 72px;
+  padding-bottom: 72px;
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -310,7 +297,6 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  padding-bottom: 120px;
 }
 .portfolio-item {
   width: 360px;
@@ -319,7 +305,7 @@ img {
   margin-bottom: 0;
 }
 .portfolio-name {
-  margin-bottom: 8px;
+  padding-bottom: 8px;
   color: #2e2f42;
   text-align: center;
   font-size: 20px;
@@ -328,6 +314,7 @@ img {
   letter-spacing: 0.02em;
 }
 .portfolio-text {
+  margin: 0;
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -358,23 +345,11 @@ img {
 }
 .footer-botton {
   color: #f4f4fd;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .footer-text {
+  margin: 0;
   max-width: 264px;
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.footer-link,
-.footer-botton {
-  margin-bottom: 16px;
-  text-decoration: none;
-  width: 115px;
-  margin-bottom: 16px;
 }
